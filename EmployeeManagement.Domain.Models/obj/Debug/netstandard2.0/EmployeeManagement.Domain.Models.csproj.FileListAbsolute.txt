@@ -1,0 +1,8 @@
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Models.deps.json
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Models.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Models.pdb
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Models.csproj.CoreCompileInputs.cache
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Models.AssemblyInfoInputs.cache
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Models.AssemblyInfo.cs
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Models.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Models\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Models.pdb

@@ -1,0 +1,12 @@
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\bin\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.deps.json
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\bin\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\bin\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.pdb
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\bin\Debug\netstandard2.0\EmployeeManagement.Infrastructure.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\bin\Debug\netstandard2.0\EmployeeManagement.Infrastructure.pdb
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\obj\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.csproj.CoreCompileInputs.cache
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\obj\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.AssemblyInfoInputs.cache
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\obj\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.AssemblyInfo.cs
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\obj\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\obj\Debug\netstandard2.0\EmployeeManagement.Infrastructure.Sql.pdb
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Models.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Infrastructure.Sql\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Models.pdb

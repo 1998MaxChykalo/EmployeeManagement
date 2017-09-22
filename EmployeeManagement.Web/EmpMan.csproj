@@ -50,4 +50,10 @@
     </ItemGroup>
   </Target>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagement.IoC\EmployeeManagement.IoC.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Domain.Models\EmployeeManagement.Domain.Models.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Domain.Services\EmployeeManagement.Domain.Services.csproj" />
+  </ItemGroup>
+
 </Project>

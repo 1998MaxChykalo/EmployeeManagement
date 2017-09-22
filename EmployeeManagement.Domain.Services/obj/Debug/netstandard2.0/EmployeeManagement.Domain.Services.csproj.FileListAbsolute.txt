@@ -1,0 +1,12 @@
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Services.deps.json
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Services.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Services.pdb
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Models.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\bin\Debug\netstandard2.0\EmployeeManagement.Infrastructure.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\bin\Debug\netstandard2.0\EmployeeManagement.Infrastructure.pdb
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\bin\Debug\netstandard2.0\EmployeeManagement.Domain.Models.pdb
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Services.csproj.CoreCompileInputs.cache
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Services.AssemblyInfoInputs.cache
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Services.AssemblyInfo.cs
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Services.dll
+D:\trainProj\aspNetCore+angular\EmployeeManagementWithArchitecture\EmployeeManagement\EmployeeManagement.Domain.Services\obj\Debug\netstandard2.0\EmployeeManagement.Domain.Services.pdb

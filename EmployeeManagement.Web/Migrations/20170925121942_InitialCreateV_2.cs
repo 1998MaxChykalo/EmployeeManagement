@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace EmpMan.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class InitialCreateV_2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,7 +17,7 @@ namespace EmpMan.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     IsAvailable = table.Column<bool>(type: "bit", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Photo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Photo = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
                     Rank = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },

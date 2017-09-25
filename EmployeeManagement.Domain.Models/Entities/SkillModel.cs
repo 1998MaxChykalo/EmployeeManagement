@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Domain.Models.Entities
 {
-    public class SkillModel
+    public class SkillModel : IEntityBase
     {
         public int Id { get; set; }
         public string Name { get; set; }

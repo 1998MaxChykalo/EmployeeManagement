@@ -6,8 +6,8 @@ namespace EmployeeManagement.Domain.Models.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string UserId { get; set; }
-        public string Photo { get; set; }
+        // public string UserId { get; set; }
+        public byte[] Photo { get; set; }
         public bool IsAvailable { get; set; }
         public int Rank { get; set; }
 

@@ -11,8 +11,8 @@ using System;
 namespace EmpMan.Migrations
 {
     [DbContext(typeof(EmployeeManagementDbContext))]
-    [Migration("20170923155541_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20170925121942_InitialCreateV_2")]
+    partial class InitialCreateV_2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,7 +30,7 @@ namespace EmpMan.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<string>("Photo");
+                    b.Property<byte[]>("Photo");
 
                     b.Property<int>("Rank");
 

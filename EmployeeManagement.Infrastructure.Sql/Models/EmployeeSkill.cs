@@ -1,6 +1,6 @@
 namespace EmployeeManagement.Infrastructure.Sql
 {
-    public class EmployeeSkill : IEntityBase
+    public class EmployeeSkill
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }

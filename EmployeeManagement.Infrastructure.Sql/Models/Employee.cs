@@ -3,7 +3,7 @@ using EmployeeManagement.Infrastructure;
 
 namespace EmployeeManagement.Infrastructure.Sql
 {
-    public class Employee : IEntityBase
+    public class Employee
     {
         public Employee()
         {
@@ -13,8 +13,8 @@ namespace EmployeeManagement.Infrastructure.Sql
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public string UserId { get; set; }
-        public string Photo { get; set; }
+        // public string UserId { get; set; }
+        public byte[] Photo { get; set; }
         public bool IsAvailable { get; set; }
         public int Rank { get; set; }
 

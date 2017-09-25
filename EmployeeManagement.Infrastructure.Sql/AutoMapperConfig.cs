@@ -1,5 +1,8 @@
+using System;
+using System.IO;
 using AutoMapper;
 using EmployeeManagement.Domain.Models.Entities;
+using Microsoft.AspNetCore.Http;
 
 namespace EmployeeManagement.Infrastructure.Sql
 {
@@ -7,7 +10,6 @@ namespace EmployeeManagement.Infrastructure.Sql
     {
         private static bool _isConfigured;
         private static readonly object Lock = new object();
-
         public static void Configure()
         {
             lock (Lock)

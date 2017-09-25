@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 using Microsoft.Extensions.DependencyInjection;
+using Autofac;
 
 namespace EmpMan
 {
@@ -32,6 +33,11 @@ namespace EmpMan
             services.AddMvc();
             services.AddDbContext<EmployeeManagementDbContext>();
             services.AddSingleton(Configuration);
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new EmployeeManagement.IoC.DefaultModule()); //For Autofac injection.
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

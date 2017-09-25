@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Autofac.Extensions.DependencyInjection;
 
 namespace EmpMan
 {
@@ -19,7 +20,9 @@ namespace EmpMan
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureServices(services => services.AddAutofac()) //For Autofac injection.
                 .UseStartup<Startup>()
                 .Build();
+                
     }
 }

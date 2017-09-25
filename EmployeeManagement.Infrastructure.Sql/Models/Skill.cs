@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace EmployeeManagement.Infrastructure.Sql
 {
-    public class Skill : IEntityBase
+    public class Skill
     {
         public Skill()
         {

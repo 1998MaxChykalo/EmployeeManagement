@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EmployeeManagement.Infrastructure.Sql
 {
-    public class Project : IEntityBase
+    public class Project
     {
         public Project()
         {

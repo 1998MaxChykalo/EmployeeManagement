@@ -29,11 +29,9 @@ namespace EmpMan.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<string>("Photo");
+                    b.Property<byte[]>("Photo");
 
                     b.Property<int>("Rank");
-
-                    b.Property<string>("UserId");
 
                     b.HasKey("Id");
 

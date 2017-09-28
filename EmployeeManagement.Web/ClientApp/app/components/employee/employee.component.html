@@ -1,0 +1,21 @@
+<table>
+    <tr *ngFor='let employee of employees'>
+        <td>
+            <img *ngIf='employee.photo'
+                 [src]='employee.photo'
+                 [title]='employee.name | uppercase'>
+        </td>
+        <td><a [routerLink]="['/employee', employee.id]">
+            {{employee.name}}
+            </a>
+        </td>
+        <td>{{ employee.rank }}</td>
+        <td>{{ employee.isAvailable }}</td>
+        <td>
+            <tr *ngFor='let employeeProject of employee.employeeProjects'>{{ employeeProject.project.name }}</tr>
+        </td>
+        <td>
+            <tr *ngFor='let employeeSkill of employee.employeeSkills'>{{ employeeSkill.skill.name }} - {{ employeeSkill.rank }}</tr>
+        </td>
+    </tr>
+</table>

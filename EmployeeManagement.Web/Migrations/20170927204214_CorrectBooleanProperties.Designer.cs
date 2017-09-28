@@ -11,9 +11,10 @@ using System;
 namespace EmpMan.Migrations
 {
     [DbContext(typeof(EmployeeManagementDbContext))]
-    partial class EmployeeManagementDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170927204214_CorrectBooleanProperties")]
+    partial class CorrectBooleanProperties
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

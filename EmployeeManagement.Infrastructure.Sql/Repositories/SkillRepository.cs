@@ -18,28 +18,35 @@ namespace EmployeeManagement.Infrastructure.Sql.Repositories
 
         public IEnumerable<SkillModel> GetAll()
         {
-            var skills = _context.Skill.ToList();
+            var skills = _context.Skill.Include(sk => sk.EmployeeSkills)
+                                            .ThenInclude(emSk => emSk.Employee)
+                                        .Include(sk => sk.ProjectSkills)
+                                            .ThenInclude(prSk => prSk.Project)
+                                        .ToList();
             var skillsModels = Mapper.Map<List<Skill>, List<SkillModel>>(skills);
             return skillsModels;
         }
 
         public SkillModel GetById(object id)
         {
-            var skill = _context.Skill.FirstOrDefault(e => e.Id == (int)id);
+            var skill = _context.Skill.Include(sk => sk.EmployeeSkills)
+                                            .ThenInclude(emSk => emSk.Employee)
+                                        .Include(sk => sk.ProjectSkills)
+                                            .ThenInclude(prSk => prSk.Project)
+                                        .FirstOrDefault(e => e.Id == (int)id);
             var skillsModels = Mapper.Map<Skill, SkillModel>(skill);
             return skillsModels; 
         }
 
-        public void Create(SkillModel skills)
+        public void Create(SkillModel skillModel)
         {
-            Mapper.Initialize(cfg => cfg.CreateMap<SkillModel, Skill>());
-            var skill= Mapper.Map<SkillModel, Skill>(skills);
+            var skill= Mapper.Map<SkillModel, Skill>(skillModel);
             _context.Skill.Add(skill);
         }
 
-        public void Update(SkillModel skills)
+        public void Update(SkillModel skillModel)
         {
-            var skill = Mapper.Map<SkillModel, Skill>(skills);
+            var skill = Mapper.Map<SkillModel, Skill>(skillModel);
             _context.Entry(skill).State = EntityState.Modified;
         }
 

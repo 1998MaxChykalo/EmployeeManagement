@@ -13,8 +13,8 @@ namespace EmployeeManagement.Domain.Models.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public DateTime StartDateUtc { get; set; }
-        public bool Status { get; set; }
-        public string User { get; set; }
+        public bool IsInDevelopment { get; set; }
+        // public string User { get; set; }
 
         public ICollection<EmployeeProjectModel> EmployeeProjects { get; set; }
         public ICollection<ProjectSkillModel> ProjectSkills { get; set; }

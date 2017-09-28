@@ -15,8 +15,8 @@ namespace EmployeeManagement.Infrastructure.Sql
         public string Name { get; set; }
         public string Description { get; set; }
         public DateTime StartDateUtc { get; set; }
-        public bool Status { get; set; }
-        public string User { get; set; }
+        public bool IsInDevelopment { get; set; }
+        // public string User { get; set; }
 
         public virtual ICollection<EmployeeProject> EmployeeProjects { get; set; }
         public virtual ICollection<ProjectSkill> ProjectSkills { get; set; }

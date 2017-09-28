@@ -17,14 +17,22 @@ namespace EmployeeManagement.Infrastructure.Sql.Repositories
         }
         public IEnumerable<EmployeeModel> GetAll()
         {
-            var employeeEntities = _context.Employee.ToList();
+            var employeeEntities = _context.Employee.Include(emp => emp.EmployeeProjects)
+                                                            .ThenInclude(emPr => emPr.Project)
+                                                        .Include(emp => emp.EmployeeSkills)
+                                                            .ThenInclude(emSk => emSk.Skill)
+                                                        .ToList();
             var employeeModels = Mapper.Map<List<Employee>, List<EmployeeModel>>(employeeEntities);
             return employeeModels;
         }
 
         public EmployeeModel GetById(object id)
         {
-            var employeeEntity = _context.Employee.FirstOrDefault(e => e.Id == (int)id);
+            var employeeEntity = _context.Employee.Include(emp => emp.EmployeeProjects)
+                                                            .ThenInclude(emPr => emPr.Project)
+                                                        .Include(emp => emp.EmployeeSkills)
+                                                            .ThenInclude(emSk => emSk.Skill)
+                                                    .FirstOrDefault(e => e.Id == (int)id);
             var employeeModels = Mapper.Map<Employee, EmployeeModel>(employeeEntity);
             return employeeModels;
         }

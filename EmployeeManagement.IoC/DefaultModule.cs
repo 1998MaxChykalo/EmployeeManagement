@@ -1,6 +1,6 @@
 
 using Autofac;
-using CompanySkills.Infrastructure.Sql;
+using EmployeeManagement.Infrastructure.Sql;
 using EmployeeManagement.Domain.Services.Employee;
 using EmployeeManagement.Domain.Services.Interfaces;
 using EmployeeManagement.Domain.Services.Project;
@@ -16,7 +16,7 @@ namespace EmployeeManagement.IoC
             //builder.RegisterType<ContainerManager>().As<CompanySkillsDataBaseContext>();
             
             // Register infrastructure dependencies.
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>();
+            builder.RegisterType<HttpUnitOfWork>().As<IUnitOfWork>();
 
             // Register domain services.
             builder.RegisterType<EmployeeService>().As<IEmployeeService>();

@@ -6,7 +6,7 @@ using EmployeeManagement.Infrastructure.Sql;
 using EmployeeManagement.Infrastructure.Sql.Repositories;
 using EmployeeManagement.Infrastructure.UnitOfWork;
 
-namespace CompanySkills.Infrastructure.Sql
+namespace EmployeeManagement.Infrastructure.Sql
 {
     public class UnitOfWork : IUnitOfWork
     {

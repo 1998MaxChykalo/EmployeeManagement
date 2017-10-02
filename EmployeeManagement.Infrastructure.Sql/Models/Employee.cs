@@ -13,13 +13,13 @@ namespace EmployeeManagement.Infrastructure.Sql
 
         public int Id { get; set; }
         public string Name { get; set; }
-        // public string UserId { get; set; }
+        public string UserId { get; set; }
         public byte[] Photo { get; set; }
         public bool IsAvailable { get; set; }
         public int Rank { get; set; }
 
         public virtual ICollection<EmployeeProject> EmployeeProjects { get; set; }
         public virtual ICollection<EmployeeSkill> EmployeeSkills { get; set; }
-        // public virtual AspNetUsers User { get; set; }
+        public virtual ApplicationUser User { get; set; }
     }
 }
